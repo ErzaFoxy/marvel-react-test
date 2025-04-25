@@ -98,10 +98,10 @@ const View = ({ char }) => {
                     {descr}
                 </p>
                 <div className="randomchar__btns">
-                    <a href={homepage} className="button button__main">
+                    <a href={homepage} target="_blank" rel="noopener noreferrer" className="button button__main">
                         <div className="inner">homepage</div>
                     </a>
-                    <a href={wiki} className="button button__secondary">
+                    <a href={wiki} target="_blank" rel="noopener noreferrer" className="button button__secondary">
                         <div className="inner">Wiki</div>
                     </a>
                 </div>
